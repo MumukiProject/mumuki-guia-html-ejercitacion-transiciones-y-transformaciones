@@ -6,3 +6,9 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.ejercicio:hover .cuadrado:nth-child(2)
   inspection: DeclaresStyle:transform:rotate(180deg)
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.ejercicio:hover .cuadrado:nth-child(2)
+  inspection: DeclaresStyle:transform:rotate(180deg)
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.ejercicio:hover .cuadrado:last-child(2)
+  inspection: DeclaresStyle:transform:rotate(180deg)
