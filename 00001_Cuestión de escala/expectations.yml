@@ -1,0 +1,8 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.cuadrado:nth-child(even):hover
+  inspection: DeclaresStyle:transform:scale(1.2)
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.cuadrado:nth-child(odd):hover
+  inspection: DeclaresStyle:transform:scale(0.8)
