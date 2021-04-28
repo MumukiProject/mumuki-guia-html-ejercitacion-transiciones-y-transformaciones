@@ -8,10 +8,10 @@ expectations:
   inspection: DeclaresStyle:transform:rotate(180deg)
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.cuadrado:nth-child(3):hover
-  inspection: 'DeclaresStyle:transform: rotate(270deg)'
+  inspection: DeclaresStyle:transform:rotate(270deg)
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.cuadrado:last-child:hover
-  inspection: 'DeclaresStyle:transform: rotate(360deg)'
+  inspection: DeclaresStyle:transform:rotate(360deg)
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.cuadrado:first-child:hover
   inspection: DeclaresStyle:transition:0.3s
