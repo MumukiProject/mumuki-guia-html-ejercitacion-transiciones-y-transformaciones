@@ -1,0 +1,14 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.boton:hover
+  inspection: DeclaresStyle:background-color:#d1c4e9
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.boton:hover
+  inspection: DeclaresStyle:transition-duration:0.3s
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css.boton:active
+  inspection: DeclaresStyle:background-color:#b39ddb
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css.boton:active
+  inspection: DeclaresStyle:transition-duration:0.3s
