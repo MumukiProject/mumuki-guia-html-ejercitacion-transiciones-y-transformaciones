@@ -1,0 +1,5 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: css:.ejercicio:hover .cuadrado:first-child
+  inspection: DeclaresStyle:transform:rotate(180deg)
