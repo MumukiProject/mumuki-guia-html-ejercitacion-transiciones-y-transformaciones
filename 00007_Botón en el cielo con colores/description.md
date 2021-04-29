@@ -1,1 +1,1 @@
-> Al hacer hover sobre el botón, cambiar el color de fondo por #ec407a y el color de texto por #000000, y al presionarlo, cambiar el color de fondo por #e91e63. Darle una transición con 0.3 segundos de duración. 
+> Agregá los estilos necesarios para que al hacer `hover` sobre el botón cambie el color de fondo del mismo por `#EC407A` y del texto por `#000000` , y que al presionarlo cambie su color de fondo por `#E91E63`, con una transición de `0.3s`.
