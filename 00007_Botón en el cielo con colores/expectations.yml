@@ -13,5 +13,5 @@ expectations:
   binding: css:.boton:active
   inspection: DeclaresStyle:transition-duration:0.3s
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: css:.boton:active
+  binding: css:.boton:hover
   inspection: DeclaresStyle:color:#000000
