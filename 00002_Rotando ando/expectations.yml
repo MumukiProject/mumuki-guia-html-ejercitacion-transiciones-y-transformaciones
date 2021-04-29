@@ -1,7 +1,7 @@
 ---
 expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: css:.cuadrado:first-child:hover
+  binding: ".ejercicio:hover .cuadrado:first-child"
   inspection: DeclaresStyle:transform:rotate(90deg)
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.cuadrado:nth-child(2):hover
