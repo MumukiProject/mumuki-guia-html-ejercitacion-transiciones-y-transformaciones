@@ -10,9 +10,6 @@ expectations:
   binding: css:.ejercicio-8 .boton-2 .icono-boton
   inspection: DeclaresStyle:right:0
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: css:.ejercicio-8 .boton-2:hover .texto-boton
-  inspection: DeclaresStyle:bottom:calc(-100%-40px)
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.ejercicio-8 .boton-2:hover .icono-boton
   inspection: DeclaresStyle:top:0
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
@@ -21,9 +18,6 @@ expectations:
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.ejercicio-8 .boton-3 .icono-boton
   inspection: DeclaresStyle:left:-100%
-- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
-  binding: css:.ejercicio-8 .boton-3:hover .texto-boton
-  inspection: DeclaresStyle:right:calc(-100%-40px)
 - !ruby/hash:ActiveSupport::HashWithIndifferentAccess
   binding: css:.ejercicio-8 .boton-3:hover .icono-boton
   inspection: DeclaresStyle:left:0
