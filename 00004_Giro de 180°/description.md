@@ -1,1 +1,1 @@
-> Agregá los estilos necesarios para que al hacer `hover` sobre el contenedor cada cuadrado rote hacia la derecha 180 grados, sobre el eje z, con una duración de `0.3s`, teniendo cada uno un delay de `0.2s` con respecto al de la izquierda (es decir, 0, 0.2, 0.4 y 0.6).
+> Agregá los estilos necesarios para que al hacer `hover` sobre el contenedor cada cuadrado rote hacia la derecha 180 grados, sobre el eje z, con una duración de `0.3s`, teniendo cada uno un delay de `0.2s` con respecto al de la izquierda (es decir, `0s`, `0.2s`, `0.4s` y `0.6s`).
